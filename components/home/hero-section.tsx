@@ -60,8 +60,7 @@ export default function HeroSection() {
                     className="text-amber-100 font-medium text-xs sm:text-base flex items-center gap-1.5 sm:gap-2 mr-4 sm:mr-6"
                   >
                     <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-amber-400" />
-                    Full menu is coming soon — Stay tuned!
-                    <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-amber-400" />
+                    Full menu coming soon — Stay tuned! | Kitchen Closes at 9:30 PM | Early Morning Breakfast - Coming Soon                    <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-amber-400" />
                   </span>
                 ))}
               </div>
