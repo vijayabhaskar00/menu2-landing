@@ -1,147 +1,198 @@
-[00:00:00.536] Server  LOG      ✓ Ready in 378ms
-[00:00:03.683] Server  WARN    Image with src "/_next/static/media/about_1_1.4bdf56de.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+[00:00:00.736] Server  LOG      ✓ Ready in 486ms
+[00:00:04.003] Server  WARN    Image with src "/_next/static/media/about_1_1.4bdf56de.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:03.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.020] Browser WARN    Image with src "/_next/static/media/about_1_1.4bdf56de.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+[00:00:04.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.755] Browser WARN    Image with src "/_next/static/media/about_1_1.4bdf56de.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:04.021] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:04.021] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:04.021] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764962870450}
-[00:00:04.021] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:05.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.579] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:05.579] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
-[00:00:05.579] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764962871988}
-[00:00:05.579] Browser WARN    Image with src "/_next/static/media/logo.50bc63dc.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:04.755] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:04.755] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:04.755] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:04.755] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765559672822}
+[00:00:06.572] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.774] Browser WARN    Image with src "/_next/static/media/logo.50bc63dc.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:05.579] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:05.778] Browser ERROR   Error fetching menu categories: {}
-[00:00:05.778] Browser ERROR   Error loading categories: {}
-[00:00:06.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.151] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:07.151] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
-[00:00:07.151] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764962873507}
-[00:00:07.151] Browser WARN    Image with src "/_next/static/media/logo.50bc63dc.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:06.774] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.774] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:00:06.774] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765559674830}
+[00:00:06.774] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.109] Browser LOG     []
+[00:00:08.358] Browser LOG     []
+[00:00:08.359] Browser LOG     []
+[00:00:08.587] Browser WARN    Image with src "https://www.feastingathome.com/wp-content/uploads/2019/10/aloo-gobi-10.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:07.151] Browser ERROR   Error fetching menu categories: {}
-[00:00:07.151] Browser ERROR   Error loading categories: {}
-[00:00:07.151] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.993] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.189] Browser WARN    Image with src "/_next/static/media/logo.50bc63dc.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:10.189] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.189] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
-[00:00:10.189] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764962876610}
-[00:00:10.189] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.189] Browser ERROR   Error fetching menu categories: {}
-[00:00:10.189] Browser ERROR   Error loading categories: {}
-[00:00:27.347] Server  LOG      ✓ Compiled in 57ms
-[00:00:27.450] Browser ERROR   ./data/menu-data.ts:66:40
+[00:00:08.836] Browser LOG     []
+[00:00:08.836] Browser LOG     []
+[00:02:48.411] Server  LOG      ✓ Compiled in 55ms
+[00:02:56.131] Server  LOG      ✓ Compiled in 44ms
+[00:02:56.484] Browser ERROR   uncaughtError: ReferenceError: currentCategory is not defined
+[00:02:59.577] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:59.725] Server  LOG      ✓ Compiled in 38ms
+[00:02:59.932] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:01.487] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:01.487] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:03:01.487] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765559848199}
+[00:03:01.487] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.487] Browser LOG     []
+[00:03:01.630] Server  LOG      ✓ Compiled in 38ms
+[00:03:02.484] Browser ERROR   uncaughtError: ReferenceError: currentCategory is not defined
+[00:03:03.278] Server  LOG      ✓ Compiled in 40ms
+[00:03:03.483] Browser ERROR   ./components/category-nav.tsx:25:27
 Parsing ecmascript source code failed
-  64 | export async function fetchMenuCategories(): Promise<MenuApiResponse> {
-  65 |   try {
-> 66 |     const response = VITE_API_BASE_URL}/categories`,
-     |                                        ^
-  67 |       {
-  68 |         cache: 'no-store', // Always fresh data
-  69 |       }
+  23 |
+  24 |   // const currentCategory = categories.find(cat => c  const currentCategory = sortedCategories.find(cat => cat.id === selectedCategory);
+> 25 | at.id === selectedCategory);
+     |                           ^
+  26 |   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  27 |   const [showLeftGradient, setShowLeftGradient] = useState(false);
+  28 |   const [showRightGradient, setShowRightGradient] = useState(true);
 
-Expected a semicolon
+Expected ';', '}' or <eof>
 
 Import traces:
   Client Component Browser:
-    ./data/menu-data.ts [Client Component Browser]
+    ./components/category-nav.tsx [Client Component Browser]
     ./app/menu/page.tsx [Client Component Browser]
     ./app/menu/page.tsx [Server Component]
 
   Client Component SSR:
-    ./data/menu-data.ts [Client Component SSR]
+    ./components/category-nav.tsx [Client Component SSR]
     ./app/menu/page.tsx [Client Component SSR]
     ./app/menu/page.tsx [Server Component]
-[00:00:27.450] Browser ERROR   ./data/menu-data.ts:66:40
-Parsing ecmascript source code failed
-  64 | export async function fetchMenuCategories(): Promise<MenuApiResponse> {
-  65 |   try {
-> 66 |     const response = VITE_API_BASE_URL}/categories`,
-     |                                        ^^^^^^^^^^^^^
-  67 |       {
-  68 |         cache: 'no-store', // Always fresh data
-  69 |       }
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./data/menu-data.ts [Client Component Browser]
-    ./app/menu/page.tsx [Client Component Browser]
-    ./app/menu/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./data/menu-data.ts [Client Component SSR]
-    ./app/menu/page.tsx [Client Component SSR]
-    ./app/menu/page.tsx [Server Component]
-[00:00:36.683] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.872] Browser WARN    Image with src "/_next/static/media/logo.50bc63dc.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:03:04.467] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:04.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:05.486] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:05.486] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:03:05.486] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765559853061}
+[00:03:05.486] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:05.724] Server  LOG      ✓ Compiled in 44ms
+[00:03:06.483] Browser LOG     []
+[00:03:06.483] Browser LOG     []
+[00:03:06.483] Browser LOG     []
+[00:03:06.483] Browser LOG     []
+[00:03:06.483] Browser LOG     []
+[00:03:06.483] Browser LOG     []
+[00:03:06.483] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:06.484] Browser LOG     []
+[00:03:09.600] Server  LOG      ✓ Compiled in 27ms
+[00:03:16.772] Browser WARN    Image with src "https://www.feastingathome.com/wp-content/uploads/2019/10/aloo-gobi-10.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:36.872] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:36.872] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
-[00:00:36.872] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764962903300}
-[00:00:36.872] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:36.873] Browser ERROR   Error fetching menu categories: {}
-[00:00:36.873] Browser ERROR   Error loading categories: {}
-[00:01:23.509] Server  LOG      ✓ Compiled in 41ms
-[00:01:25.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:25.864] Browser WARN    Image with src "/_next/static/media/logo.50bc63dc.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:03:44.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:44.213] Browser WARN    Image with src "/_next/static/media/logo.50bc63dc.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:25.864] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:25.864] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
-[00:01:25.864] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764962952299}
-[00:01:25.864] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.722] Browser LOG     []
-[00:01:26.913] Browser LOG     []
-[00:01:26.913] Browser LOG     []
-[00:01:27.300] Browser WARN    Image with src "https://www.feastingathome.com/wp-content/uploads/2019/10/aloo-gobi-10.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:03:44.213] Browser WARN    Image with src "http://localhost:3000/_next/static/media/logo.50bc63dc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:44.213] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:44.213] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:03:44.213] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765559892267}
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:44.971] Browser LOG     []
+[00:03:45.271] Browser LOG     []
+[00:03:45.271] Browser LOG     []
+[00:03:45.510] Browser LOG     []
+[00:03:45.510] Browser LOG     []
+[00:03:45.510] Browser WARN    Image with src "/placeholder.svg?height=240&width=280&query=food-item" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:27.425] Browser WARN    Image with src "https://tandoor.com.sg/wp-content/uploads/2025/06/indian-baby-corn-manchurian-recipe-1750146954.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
-[00:01:29.837] Browser LOG     []
+[00:03:46.093] Browser LOG     []
+[00:03:46.093] Browser LOG     []
+[00:03:49.375] Browser LOG     []
+[00:03:49.375] Browser LOG     []
+[00:03:49.375] Browser LOG     []
+[00:03:49.375] Browser LOG     []
+[00:04:21.786] Server  LOG      ✓ Compiled in 43ms

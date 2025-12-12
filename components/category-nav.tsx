@@ -18,7 +18,11 @@ export default function CategoryNav({
   selectedSubCategory,
   onSubCategoryChange,
 }: CategoryNavProps) {
-  const currentCategory = categories.find(cat => cat.id === selectedCategory);
+
+    const sortedCategories = [...categories].sort((a, b) => (a.order || 0) - (b.order || 0));
+  const currentCategory = sortedCategories.find(cat => cat.id === selectedCategory);
+
+  // const currentCategory = categories.find(cat => cat.id === selectedCategory);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [showLeftGradient, setShowLeftGradient] = useState(false);
   const [showRightGradient, setShowRightGradient] = useState(true);
@@ -61,14 +65,14 @@ export default function CategoryNav({
         <div 
           ref={scrollContainerRef}
           onScroll={handleScroll}
-          className="flex gap-2 overflow-x-auto scroll-smooth snap-x snap-mandatory"
+          className="flex gap-2 space-evenly overflow-x-auto scroll-smooth snap-x snap-mandatory"
           style={{
             scrollBehavior: 'smooth',
             WebkitOverflowScrolling: 'touch',
             scrollPaddingLeft: '16px',
           }}
         >
-          {categories.map((category) => (
+          {sortedCategories.map((category) => (
             <button
               key={category.id}
               onClick={() => {
