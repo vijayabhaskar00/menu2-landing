@@ -46,7 +46,7 @@ export default function HeroSection() {
               onClick={() => (window.location.href = "/menu")}
               className="bg-amber-500 cursor-pointer hover:bg-amber-600 text-black font-semibold text-sm xs:text-base sm:text-lg px-6 xs:px-8 sm:px-10 py-2.5 xs:py-3 sm:py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-amber-500/50"
             >
-              Grand Opening Menu
+              Explore Ourr Menu
             </button>
           </div>
 
